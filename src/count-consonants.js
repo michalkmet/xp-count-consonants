@@ -1,21 +1,13 @@
 function countConsonants(input) {
-  const numbers = ['0','1','2','3','4','5','6','7','8','9'];
-  const vowels = ['a', 'e', 'i', 'o', 'u'];
-  let result = 0;
-  let lowerInput = input.toLowerCase();
-  if (typeof lowerInput != 'string') {
+  if (typeof input != 'string') {
     throw new Error();
   }
 
-  for (let i = 0; i < input.length; i++) {
-    const letter = input[i];
-    if (!numbers.includes(letter) && !vowels.includes(letter)) result++;
-  }
+  let firstR = input.replace(/[^a-z]/gi, '');
 
-  // if (lowerInput === 'p' || lowerInput === 'b') return 1;
-  // if (lowerInput.length === 2) return 2;
+  let secondR = firstR.replace(/[aeiou]/gi, '');
 
-  return result;
+  return secondR.length;
 }
 
 module.exports = countConsonants;
