@@ -20,4 +20,8 @@ describe('Story 3: When user pass one consonant', () => {
   it('UAT3.1 - When user pass "p", it should return 1', () => {
     expect(countConsonants('p')).toBe(1);
   });
+
+  it('UAT3.2 - When user pass "b", it should return 1', () => {
+    expect(countConsonants('b')).toBe(1);
+  });
 });

@@ -3,7 +3,7 @@ function countConsonants(input) {
     throw new Error();
   }
 
-  if (input === 'p') return 1;
+  if (input === 'p' || input === 'b') return 1;
 
   return 0;
 }
