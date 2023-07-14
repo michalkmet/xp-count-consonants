@@ -47,3 +47,12 @@ Story 7: When user pass string of length 2, no consonant
 ✅ UAT7.2 - When user pass 'aa', it should return 0
 ✅ UAT7.3 - When user pass ' A', it should return 0
 ✅ UAT7.4 - When user pass ' .', it should return 0
+
+Story 8: When user pass one word, it should return number of consonants
+✅ UAT8.1 - When user pass 'word', it should return 3
+✅ UAT8.2 - When user pass 'lol', it should return 2
+✅ UAT8.3 - When user pass 'aaaaa', it should return 0
+
+Story 9: When user pass sentence, it should return number of consonants
+UAT9.1 -  When user pass 'hello world', it should return 7
+UAT9.2 -  When user pass 'uuutttkkkaajsndfdn', it should return 13

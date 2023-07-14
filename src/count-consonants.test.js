@@ -89,3 +89,17 @@ describe('Story 7: When user pass string of length 2, no consonant', () => {
     expect(countConsonants(' .')).toBe(0);
   });
 });
+
+describe('Story 8: When user pass one word, it should return number of consonants', () => {
+  it('UAT8.1 - When user pass "word", it should return 3', () => {
+    expect(countConsonants('word')).toBe(3);
+  });
+
+  it('UAT8.2 - When user pass "lol", it should return 2', () => {
+    expect(countConsonants('lol')).toBe(2);
+  });
+
+  it('UAT8.3 - When user pass "aaaaa", it should return 0', () => {
+    expect(countConsonants('aaaaa')).toBe(0);
+  });
+});
