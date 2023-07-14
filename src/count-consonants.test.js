@@ -18,6 +18,6 @@ describe('Story 2: When user pass empty string, it should return 0', () => {
 
 describe('Story 3: When user pass one consonant', () => {
   it('UAT3.1 - When user pass "p", it should return 1', () => {
-    expect(countConsonants('')).toBe(0);
+    expect(countConsonants('p')).toBe(1);
   });
 });

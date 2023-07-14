@@ -17,3 +17,8 @@ Story 1: When user pass incorrect data, it should return exception
 
 Story 2: When user pass empty string, it should return 0
 ✅ UAT2.1 - When given empty string, it should return 0
+
+Story 3: When user pass one consonant
+✅ UAT3.1 -  When user pass 'p', it should return 1
+⚠ UAT3.2 -  When user pass 'b', it should return 1
+⚠ UAT3.3 -  When user pass 'B', it should return 1
