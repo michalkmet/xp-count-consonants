@@ -103,3 +103,13 @@ describe('Story 8: When user pass one word, it should return number of consonant
     expect(countConsonants('aaaaa')).toBe(0);
   });
 });
+
+describe('Story 9: When user pass sentence, it should return number of consonants', () => {
+  it('UAT9.1 -  When user pass "hello world", it should return 7', () => {
+    expect(countConsonants('hello world')).toBe(7);
+  });
+
+  it('UAT9.2 -  When user pass "uuutttkkkaajsndfdn", it should return 13', () => {
+    expect(countConsonants('uuutttkkkaajsndfdn')).toBe(13);
+  });
+});
