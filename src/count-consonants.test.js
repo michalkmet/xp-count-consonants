@@ -64,4 +64,10 @@ describe('Story 6: When user pass string of length 2, one consonant, one not', (
   it('UAT6.2 - When user pass "ca", it should return 1', () => {
     expect(countConsonants('ca')).toBe(1);
   });
+  it('UAT6.3 - When user pass " r", it should return 1', () => {
+    expect(countConsonants(' r')).toBe(1);
+  });
+  it('UAT6.4 - When user pass "9q", it should return 1', () => {
+    expect(countConsonants('9q')).toBe(1);
+  });
 });

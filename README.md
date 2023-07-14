@@ -37,10 +37,10 @@ UAT5.1 - ✅  When user pass 'kp', it should return 2
 UAT5.2 - ✅  When user pass 'cc', it should return 2
 
 Story 6: When user pass string of length 2, one consonant, one not
-UAT6.1 - ⚠  When user pass 'k0', it should return 1
-UAT6.2 - ⚠  When user pass 'ca', it should return 1
-UAT6.3 - ⚠  When user pass ' r', it should return 1
-UAT6.4 - ⚠  When user pass '9q', it should return 1
+UAT6.1 - ✅  When user pass 'k0', it should return 1
+UAT6.2 - ✅  When user pass 'ca', it should return 1
+UAT6.3 - ✅  When user pass ' r', it should return 1
+UAT6.4 - ✅  When user pass '9q', it should return 1
 
 Story 7: When user pass string of length 2, no consonant
 UAT7.1 - ⚠  When user pass '00', it should return 0
