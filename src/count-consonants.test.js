@@ -34,4 +34,16 @@ describe('Story 4: When user pass one string, not consonant', () => {
   it('UAT4.1 - hen user pass "a", it should return 0', () => {
     expect(countConsonants('a')).toBe(0);
   });
+  it('UAT4.2 - hen user pass ".", it should return 0', () => {
+    expect(countConsonants('.')).toBe(0);
+  });
+  it('UAT4.3 - hen user pass "9", it should return 0', () => {
+    expect(countConsonants('9')).toBe(0);
+  });
+  it('UAT4.4 - hen user pass " ", it should return 0', () => {
+    expect(countConsonants(' ')).toBe(0);
+  });
+  it('UAT4.5 - hen user pass "A", it should return 0', () => {
+    expect(countConsonants('A')).toBe(0);
+  });
 });

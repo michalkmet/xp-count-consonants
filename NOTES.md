@@ -25,7 +25,7 @@ Story 3: When user pass one consonant
 
 Story 4: When user pass one string, not consonant
 ✅ UAT4.1 - When user pass 'a', it should return 0
-UAT4.2 - ⚠  When user pass '.', it should return 0
-UAT4.3 - ⚠  When user pass '9', it should return 0
-UAT4.4 - ⚠  When user pass ' ', it should return 0
-UAT4.5 - ⚠  When user pass 'A', it should return 0
+✅ UAT4.2 - When user pass '.', it should return 0
+✅ UAT4.3 - When user pass '9', it should return 0
+✅ UAT4.4 - When user pass ' ', it should return 0
+✅ UAT4.5 - When user pass 'A', it should return 0
