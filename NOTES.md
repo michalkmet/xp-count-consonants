@@ -42,3 +42,8 @@ Story 6: When user pass string of length 2, one consonant, one not
 ✅ UAT6.3 - When user pass ' r', it should return 1
 ✅ UAT6.4 - When user pass '9q', it should return 1
 
+Story 7: When user pass string of length 2, no consonant
+✅ UAT7.1 - When user pass '00', it should return 0
+✅ UAT7.2 - When user pass 'aa', it should return 0
+✅ UAT7.3 - When user pass ' A', it should return 0
+✅ UAT7.4 - When user pass ' .', it should return 0

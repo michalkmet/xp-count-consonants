@@ -71,3 +71,21 @@ describe('Story 6: When user pass string of length 2, one consonant, one not', (
     expect(countConsonants('9q')).toBe(1);
   });
 });
+
+describe('Story 7: When user pass string of length 2, no consonant', () => {
+  it('UAT7.1 - When user pass "00", it should return 0', () => {
+    expect(countConsonants('00')).toBe(0);
+  });
+
+  it('UAT7.2 - When user pass "aa", it should return 0', () => {
+    expect(countConsonants('aa')).toBe(0);
+  });
+
+  it('UAT7.3 - When user pass " A", it should return 0', () => {
+    expect(countConsonants(' A')).toBe(0);
+  });
+
+  it('UAT7.4 - When user pass " .", it should return 0', () => {
+    expect(countConsonants(' .')).toBe(0);
+  });
+});
