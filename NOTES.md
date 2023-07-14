@@ -10,6 +10,8 @@ Consonants are all letters used to write English excluding the vowels a, e, i, o
 - ✅ DONE
 
 ## Plans
+sorryBro:
+Line 11: Try to replace input[i] with lowerInput[i]
 
 Story 1: When user pass incorrect data, it should return exception
 ✅ UAT1.1 - When given number, it should return exception
@@ -35,7 +37,8 @@ Story 5: When user pass string of length 2, both consonant
 ✅ UAT5.2 - When user pass 'cc', it should return 2
 
 Story 6: When user pass string of length 2, one consonant, one not
-🚧 UAT6.1 - When user pass 'k0', it should return 1
+✅ UAT6.1 - When user pass 'k0', it should return 1
 UAT6.2 - When user pass 'ca', it should return 1
 UAT6.3 - When user pass ' r', it should return 1
 UAT6.4 - When user pass '9q', it should return 1
+
