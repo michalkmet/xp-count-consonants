@@ -6,6 +6,7 @@ function countConsonants(input) {
   }
 
   if (lowerInput === 'p' || lowerInput === 'b') return 1;
+  if (lowerInput.length === 2) return 2;
 
   return 0;
 }

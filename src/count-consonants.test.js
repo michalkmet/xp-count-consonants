@@ -47,3 +47,12 @@ describe('Story 4: When user pass one string, not consonant', () => {
     expect(countConsonants('A')).toBe(0);
   });
 });
+
+describe('Story 5: When user pass string of length 2, both consonant', () => {
+  it('UAT5.1 - hen user pass "kp", it should return 2', () => {
+    expect(countConsonants('kp')).toBe(2);
+  });
+  it('UAT5.2 - hen user pass "cc", it should return 2', () => {
+    expect(countConsonants('cc')).toBe(2);
+  });
+});
